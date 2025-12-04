@@ -123,3 +123,8 @@ VALUES
 ('koko', '0612345678', 'kok@gmail.com', 5000, 'Tournoi de Basketball', 1),
 ('Inwi', '0623456789', 'inwi@gmail.com', 3000, 'jeu vidio', 2),
 ('dari', '0634567890', 'dari@gmail.ma', 7000, 'Tournoi de Foot', 3);
+
+SELECT * FROM  bde;
+SELECT * FROM evnement WHERE date_event > '2025-10-10';
+SELECT * FROM evnement WHERE budget_prévu > 5000;
+SELECT * FROM participant WHERE event_id = 1
